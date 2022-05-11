@@ -1,0 +1,8 @@
+name: ServerPlugin-1.0-SNAPSHOT
+description: MC Server Plugin for Skillquest
+main: io.skillquest.mc.ServerPlugin
+author: Ben Nylund
+version: 1.0
+api-version: 1.16
+depend:
+  - SidebarAPI
