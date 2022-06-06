@@ -1,9 +1,5 @@
 target**
-out**
-BuildTools**
 apache-maven-3.8.5**
 OpenJDK**
 .apt_generated**
-lib/spigot**
-src/main/java/io/skillquest/mc/MeteorA.java
 dependency-reduced-pom.xml

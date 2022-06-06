@@ -1,8 +1,11 @@
-name: ServerPlugin-1.0-SNAPSHOT
-description: MC Server Plugin for Skillquest
-main: io.skillquest.mc.ServerPlugin
+# Change "Starter" to your email address username (ex. for ben@skillquest.io, i'd do ben), first letter uppercase, for both the "name" and "main" fields 
+name: Starter
+main: Starter.MyPlugin
+
+# and of course change these
+description: Starter Minigame Template for the Skillquest Hackathon
 author: Ben Nylund
+
 version: 1.0
 api-version: 1.16
-depend:
-  - SidebarAPI
+softdepend: [SidebarAPI, Multiverse-Core, MinigamesAPI]
