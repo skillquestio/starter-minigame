@@ -24,4 +24,17 @@ curl -L -z apache-maven-3.8.6-bin.zip -o apache-maven-3.8.6-bin.zip https://arch
 tar -xf apache-maven-3.8.6-bin.zip
 del apache-maven-3.8.6-bin.zip
 
+set /p Input=What's your Minecraft username? || set Input=Unknown
+
+move /Y ./src/main/java/Starter ./src/main/java/%Input%
+(
+echo name: %Input%
+echo main: %Input%.MyPlugin
+echo description: Change this
+echo author: Change this
+echo version: 1.0
+echo api-version: 1.16
+echo softdepend: [SidebarAPI, Multiverse-Core, MinigamesAPI] 
+) > ./src/main/resources/plugin.yml
+
 pause

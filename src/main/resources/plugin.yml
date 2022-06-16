@@ -1,9 +1,7 @@
 name: Starter
 main: Starter.MyPlugin
-
-description: Starter Minigame Template for the Skillquest Hackathon
-author: Ben Nylund
-
+description: Change this
+author: Change this
 version: 1.0
 api-version: 1.16
-softdepend: [SidebarAPI, Multiverse-Core, MinigamesAPI]
+softdepend: [SidebarAPI, Multiverse-Core, MinigamesAPI] 
