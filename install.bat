@@ -20,8 +20,8 @@ copy /B .\BuildTools\Spigot\Spigot-Server\target\spigot-*-remapped-mojang.jar .\
 copy /B .\BuildTools\Spigot\Spigot-API\target\spigot-api-*-shaded.jar .\lib\spigot-api.jar
 copy /B .\BuildTools\Spigot\Spigot-API\target\spigot-api-*-sources.jar .\lib\spigot-api-src.jar
 
-curl -z apache-maven-3.8.5-bin.zip -o apache-maven-3.8.5-bin.zip https://dlcdn.apache.org/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.zip
-tar -xf apache-maven-3.8.5-bin.zip
-del apache-maven-3.8.5-bin.zip
+curl -L -z apache-maven-3.8.6-bin.zip -o apache-maven-3.8.6-bin.zip https://archive.apache.org/dist/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.zip
+tar -xf apache-maven-3.8.6-bin.zip
+del apache-maven-3.8.6-bin.zip
 
 pause

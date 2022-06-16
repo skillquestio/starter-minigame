@@ -48,7 +48,8 @@
       <groupId>io.skillquest.mc.MinigamesAPI</groupId>
       <artifactId>MinigamesAPI</artifactId>
       <version>1.0-SNAPSHOT</version>
-      <scope>provided</scope>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/lib/MinigamesAPI.jar</systemPath>
     </dependency>
   </dependencies>
   <build>

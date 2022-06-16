@@ -1,8 +1,6 @@
-# Change "Starter" to your email address username (ex. for ben@skillquest.io, i'd do ben), first letter uppercase, for both the "name" and "main" fields 
 name: Starter
 main: Starter.MyPlugin
 
-# and of course change these
 description: Starter Minigame Template for the Skillquest Hackathon
 author: Ben Nylund
 
