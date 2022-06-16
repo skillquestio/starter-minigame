@@ -3,5 +3,5 @@ main: Starter.MyPlugin
 description: Change this
 author: Change this
 version: 1.0
-api-version: 1.16
+api-version: 1.18
 softdepend: [SidebarAPI, Multiverse-Core, MinigamesAPI] 
