@@ -19,6 +19,7 @@ Ubuntu:
 ```bash
 chmod +x ./install.sh
 ./install.sh
+source /etc/profile.d/maven.sh
 ```
 
 macOS:
@@ -38,9 +39,9 @@ Windows:
 
 1. Open up `pom.xml`
 2. On line 4, change `groupId` to your Minecraft username
-3. On line 5, change `artifactId` to the name of your minigame [use dashes  (or blanks) for spaces]
+3. On line 5, change `artifactId` to the name of your minigame [use dashes (or blanks) for spaces]
 4. On line 93, change the `outputDirectory` to your server's `plugins/Skillquest/minigames` directory
 5. On line 95, change `finalName` to the same value as `artifactId` on line 5
-6. Right-click on `pom.xml` and click `Update Project`
+6. Wait until the install script is finished, then right-click on `pom.xml` and click `Update Project`
 7. Restart VS Code
 8. Inside of all the classes in `src/main/java/[your_mc_username]`, you will need to change the first line in every file from `package Starter;` to `package your_mc_username;`

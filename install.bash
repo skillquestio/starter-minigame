@@ -12,4 +12,10 @@ cp ./BuildTools/Spigot/Spigot-Server/target/spigot-*-remapped-mojang.jar ./lib/s
 cp ./BuildTools/Spigot/Spigot-API/target/spigot-api-*-shaded.jar ./lib/spigot-api.jar
 cp ./BuildTools/Spigot/Spigot-API/target/spigot-api-*-sources.jar ./lib/spigot-api-src.jar
 
+echo What\'s your Minecraft username?
+read mcusername
+
+mv ./src/main/java/Starter ./src/main/java/$mcusername
+echo -e "name: $mcusername\nmain: $mcusername.MyPlugin\ndescription: Change this\nauthor: Change this\nversion: 1.0\napi-version: 1.16\nsoftdepend: [SidebarAPI, Multiverse-Core, MinigamesAPI]\n" > ./src/main/resources/plugin.yml
+
 echo Done!
