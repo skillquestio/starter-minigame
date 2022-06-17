@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo brew install openjdk@17
-sudo brew install maven
+brew install openjdk@17
+brew install maven
 mkdir -p BuildTools
 rm ./BuildTools/spigot-*.jar
 cd BuildTools
