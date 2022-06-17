@@ -7,7 +7,7 @@ This repository contains a starting point for your minigame. It can load as-is i
 ### Setting up your server
 
 1. Go through the [`Create a Minecraft Server`](https://skillquest.io/quest/create-a-minecraft-server-1652794608908x505919601352900600) quest (MC Version 1.19)
-2. Copy [`Skillquest.jar`](https://github.com/skillquestio/starter-minigame/blob/main/lib/Skillquest.jar?raw=true) into your server's `plugins` directory
+2. Copy [`Skillquest.jar`](https://github.com/skillquestio/starter-minigame/blob/main/lib/Skillquest.jar?raw=true), [`Multiverse-Core-4.3.1.jar`](https://github.com/skillquestio/starter-minigame/blob/main/lib/Multiverse-Core-4.3.1.jar?raw=true), and [`PlugManX.jar`](https://www.spigotmc.org/resources/plugmanx.88135/download?version=441842) into your server's `plugins` directory
 3. Start your server
 4. Once the server is fully booted, stop the server and copy [`MinigamesAPI.jar`](https://github.com/skillquestio/starter-minigame/blob/main/lib/MinigamesAPI.jar?raw=true) into your server's `plugins/Skillquest` directory
 5. You can now start your server again, and in the server console, you should see that `MinigamesAPI` loads when `Skillquest` loads.
